@@ -1,13 +1,22 @@
 h1 {
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     background-color: black;
     color: white;
 }
 
-div {
+div, h1, h2 {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
 }
 
 img {
